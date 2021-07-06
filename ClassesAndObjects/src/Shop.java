@@ -62,7 +62,7 @@ public class Shop {
                         if (amount <= item.getQuantity() && amount != 0) {
                             int newQuantity = item.getQuantity() - amount;
                             item.setQuantity(newQuantity);
-                            System.out.println(item.getName() + " now has " + item.getQuantity() + " left.");
+                            System.out.println("There are " + item.getQuantity() + " " + item.getName() + "(s) left.");
                         }
                     }
                 }
