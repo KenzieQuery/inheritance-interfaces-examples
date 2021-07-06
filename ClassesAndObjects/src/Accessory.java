@@ -10,6 +10,8 @@ public class Accessory extends Item {
         return protectionLevel;
     }
 
+    // equipItem and useItem get implemented individually in each
+    // child class
     @Override
     public void equipItem() {
         System.out.println(this.getName() + " equipped");

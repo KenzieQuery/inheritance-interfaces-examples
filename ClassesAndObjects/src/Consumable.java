@@ -10,6 +10,8 @@ public class Consumable extends Item{
         return durationInSec;
     }
 
+    // equipItem and useItem get implemented individually in each
+    // child class
     @Override
     public void equipItem() {
         System.out.println("Can't equip consumables.");

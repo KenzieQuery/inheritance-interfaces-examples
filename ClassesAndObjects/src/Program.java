@@ -27,6 +27,7 @@ public class Program {
         Accessory theRing = new Accessory("The One True Ring", "One ring to rule them all", 1, 0, 999);
         Consumable healingPotion = new Consumable("Healing Potion", "Heals wounds", 20, 10, 5);
 
+        //manually testing our ItemActions methods
         dagger.discardItem();
         frodosSword.discardItem();
         frodosSword.equipItem();
@@ -34,6 +35,8 @@ public class Program {
         theRing.discardItem();
         healingPotion.useItem();
         theRing.useItem();
+        // commented out this code to test ItemActions methods, comment it back in
+        // to see original Shop functionality
 //        Item[] inventory = {dagger, frodosSword, theRing, healingPotion};
 //
 //        Shop prancingPony = new Shop("Prancing Pony", inventory);

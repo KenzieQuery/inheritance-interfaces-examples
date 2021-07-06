@@ -25,6 +25,7 @@ public abstract class Item implements ItemActions{
         this.price = price;
     }
 
+    // discardItem gets implemented at the parent class level
     public void discardItem() {
         System.out.println("Discarded " + this.getName());
     }
